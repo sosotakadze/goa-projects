@@ -8,7 +8,7 @@ speed(30)
  
 width(7)
  
-color("red")
+color("black")
 begin_fill()
 forward(200)
 left(90)
@@ -49,7 +49,7 @@ goto(200,200)
 pendown()
  
  
-color ("green")
+color ("red")
 begin_fill()
 right(150)
  
