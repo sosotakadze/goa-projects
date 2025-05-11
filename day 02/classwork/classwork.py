@@ -1,0 +1,5 @@
+print(2 + 2)
+print(6 - 4)
+print(10 / 2)
+print(12 // 3)
+print(3 * 6)
