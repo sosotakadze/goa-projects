@@ -31,7 +31,7 @@ end_fill()
 width(7)
  
 forward(70) 
-color ("blue")
+color ("green")
 begin_fill()
 left(90)
   
