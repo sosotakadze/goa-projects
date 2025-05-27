@@ -1,29 +1,23 @@
-Length = 6.5
+name = "Soso"
+age = 15
+print("Hello my name is", name, "i am", age, "years old")
+
+
+length = 6.5
 width = 5.5
-
-print (6.5 * 5.5)
-
-S = 35.75
-print (S) 
-
+print(length * width)
 
 
 clothes = "shirt"
-price = "30.5"
-
-print(clothes+" "+ price)
-
-
+price = 30.5
+print(clothes, "costs", price)
 
 
 number = 13
 number1 = 15
-
-print (number * number1)
-
+print(number + number1)
 
 
 number2 = 15 
 number3 = 6
-
-print (number2 / number3)
+print(number2 / number3)
