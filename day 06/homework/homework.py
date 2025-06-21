@@ -12,7 +12,6 @@
 
 
 
-
 name = input("enter your name: ")
 surname = input("enter your surname: ")
 age = input("enter your age: ")
@@ -24,8 +23,6 @@ print("მე ვარ " + name + surname + " " + age + " წლის" + " " +
 
 
 
-
-
 number1 = int(input("number 1: "))
 number2 = int(input("number 2: "))
 number3 = int(input("enter number 3: "))
@@ -34,8 +31,6 @@ number5 = int(input("enter number 5: "))
 
 average = (number1 + number2 + number3 + number4 + number5) / 5
 print(average)
-
-
 
 
 
