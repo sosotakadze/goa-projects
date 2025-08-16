@@ -1,14 +1,14 @@
 from turtle import *
  
- #we want to paint a house
+#we want to paint a house
   
-  #step 1:  draw a square
+#step 1:  draw a square
  
 speed(30)
  
 width(7)
  
-color("black")
+color("white")
 begin_fill()
 forward(200)
 left(90)
@@ -24,14 +24,14 @@ left(90)
 end_fill()
  
  
- # end of square
+# end of square
  
- #drawing a door 
+#drawing a door 
  
 width(7)
  
 forward(70) 
-color ("green")
+color ("purple")
 begin_fill()
 left(90)
   
@@ -49,7 +49,7 @@ goto(200,200)
 pendown()
  
  
-color ("red")
+color ("blue")
 begin_fill()
 right(150)
  

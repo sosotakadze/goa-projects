@@ -1,0 +1,45 @@
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#machakhela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#x0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#h11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#form1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#change {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
