@@ -2,7 +2,7 @@ from turtle import *
  
 #we want to paint a house
   
-#step 1:  draw a square
+#step 1: draw a square
  
 speed(30)
  
@@ -23,8 +23,7 @@ forward(200)
 left(90)
 end_fill()
  
- 
-# end of square
+#end of square
  
 #drawing a door 
  
@@ -47,9 +46,8 @@ end_fill()
 penup()
 goto(200,200)
 pendown()
- 
- 
-color ("blue")
+  
+color("blue")
 begin_fill()
 right(150)
  
