@@ -1,0 +1,26 @@
+#x {
+    color: pink;
+    content: icon;
+    padding: 100px, solid purple;
+    border-bottom: 100px;
+    margin: 100px;
+    text-align: center;
+}
+
+#xx {
+    color: black;
+    content: normal;
+    padding: 100px, solid pink;
+    border-left: 100px;
+    margin: 100px;
+    text-align: center;
+} 
+
+#xxx {
+    color: yellow;
+    content: normal;
+    padding: 100px, solid green;
+    border-right: 100px;
+    margin: 100px;
+    text-align: center;
+} 
