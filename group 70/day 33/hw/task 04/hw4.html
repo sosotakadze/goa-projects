@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Football World</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* ჰორიზონტალურად შუაში */
+    }
+    nav {
+      background: blue;
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      justify-content: center; /* მენიუ შუაში */
+    }
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+    }
+    h1 {
+      text-align: center;
+      background: lightgray;
+      width: 100%;
+      padding: 20px;
+      margin: 0;
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#teams">Teams</a>
+    <a href="#players">Players</a>
+  </nav>
+
+  <!-- Header -->
+  <h1 id="home">⚽ Football World</h1>
+
+  <!-- Teams Table -->
+  <section id="teams">
+    <h2>Top Teams</h2>
+    <table>
+      <tr>
+        <th>Rank</th>
+        <th>Team</th>
+        <th>Points</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>PSG</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Barcelona</td>
+        <td>80</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>arsenal</td>
+        <td>78</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Players List -->
+  <section id="players">
+    <h2>Top Players</h2>
+    <ul style="list-style: none; padding: 0;">
+      <li>raphinia</li>
+      <li>yamal</li>
+      <li>pedri</li>
+      <li>kvara</li>
+    </ul>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+#x1 {
+    color: darkblue;
+    background-color:grey;
+    font-size: medium;
+    text-align: center;
+    content: icon;
+    padding: 100px solid black;
+    border-bottom: 100px;
+    margin: 50px;
+} 
+
+.x2 {
+    color: red;
+    text-align: center;
+}
+
+.x3 {
+    color:  gray;
+    font-size: 18px;
+}

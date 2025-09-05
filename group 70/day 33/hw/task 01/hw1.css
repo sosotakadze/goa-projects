@@ -1,0 +1,16 @@
+#x1{
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    padding: 20px;
+}
+
+#x2{
+    background-color: white;
+    border:5px solid red ;
+}
+
+#x3{
+    background-color: blue;
+    margin: 30px;
+}
