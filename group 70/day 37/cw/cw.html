@@ -1,0 +1,45 @@
+<!-- 1 -->
+<!-- display:flex - კონტეინერს აქცევს Flexbox კონტეინერად -->
+
+
+<!-- 2 -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      height: 100vh; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;   
+    }
+
+    .container {
+      display: flex;
+      gap: 30px;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+      border: 2px solid blue;
+    }
+
+    .box2 {
+      background-color: lightcoral;
+      border: 2px solid red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box"></div>
+    <div class="box box2"></div>
+  </div>
+</body>
+</html>

@@ -1,5 +1,5 @@
 scores = {
-    "soso": 99,
+    "gio": 91,
     "sandro": 10,
     "Luka": 88
 }
