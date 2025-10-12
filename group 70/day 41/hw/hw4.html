@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .square {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .red {
+            background: red;
+            position: static;
+        }
+        .green {
+            background: green;
+            position: relative;
+            top: 20px;
+            /* გადაადგილდა 20px-ით ქვემოთ */
+            left: 30px;
+            /* გადაადგილდა 30px-ით მარჯვნივ */
+        }
+        .blue {
+            background: blue;
+            position: static;
+        }
+    </style>
+</head>
+<body>
+    <div class="square red"></div>
+    <div class="square green"></div>
+    <div class="square blue"></div>
+</body>
+</html>
