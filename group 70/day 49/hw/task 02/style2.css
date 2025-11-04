@@ -1,0 +1,11 @@
+#div1 {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transition: transform 0.6s ease-in-out;
+}
+
+#div1:hover {
+    transform: scale(1,3);
+}

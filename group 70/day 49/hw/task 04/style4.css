@@ -1,0 +1,20 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    transition: transform 2s;
+}
+
+#div-1{
+    transform-origin: center;
+}
+#div-2{
+    transform-origin: top;
+}
+#div-3{
+    transform-origin: bottom;
+}
+
+div:hover{
+    transform: rotate(20deg);
+}
