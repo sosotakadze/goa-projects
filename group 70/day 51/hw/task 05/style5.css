@@ -1,0 +1,18 @@
+div{
+    width: 500px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    left: -500px;
+    animation: textBar 3s;
+    color: whitesmoke;
+}
+
+@keyframes textBar{
+    from{
+        left: -500px;
+    }
+    to{
+        left: 0;
+    }
+}

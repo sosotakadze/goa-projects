@@ -1,0 +1,18 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 750px;
+    animation: divMoveY 3s infinite ease;
+}
+
+@keyframes divMoveY{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-530px);
+    }
+}

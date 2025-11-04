@@ -1,0 +1,18 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+div:hover{
+    animation: divRotate 10s;
+}
+
+@keyframes divRotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
