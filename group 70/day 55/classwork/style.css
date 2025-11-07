@@ -1,0 +1,198 @@
+/* 1  */
+body {
+    font-family: sans-serif;
+    background-color: aliceblue;
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 50px);
+    align-content: centre;  /* centre-ით */
+    gap: 10px;
+    background: darkgoldenrod;
+    height: 200px;
+    padding: 15px;
+}
+.item {
+    background: blue;
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* 2 */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  border: 2px solid black;
+  margin: 20px 0;
+  background-color: #f3f3f3;
+  height: 100px;
+}
+
+.item {
+  background-color: lightblue;
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.start {
+  justify-items: start;
+}
+
+.center {
+  justify-items: center;
+}
+
+.end {
+  justify-items: end;
+}
+
+.stretch {
+  justify-items: stretch;
+}
+
+
+/* 3 */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f2f2f2;
+  border: 2px solid black;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.item {
+  background-color: lightcoral;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.gap-example {
+  gap: 20px;
+}
+
+.separate-gap {
+  row-gap: 10px;     
+  column-gap: 40px; 
+}
+
+
+/* 4 */
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 50px 50px;
+  height: 300px; /* კონტეინერი მაღალია */
+  border: 2px solid black;
+  background-color: #f4f4f4;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.box {
+  background-color: lightseagreen;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.start {
+  align-content: start;    
+  justify-content: start;  
+}
+
+.center {
+  align-content: center;   
+  justify-content: center; 
+}
+
+.end {
+  align-content: end;       
+  justify-content: end;     
+}
+
+
+.between {
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.around {
+  align-content: space-around;  
+  justify-content: space-around;
+}
+
+
+/* 5 */
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 50px 50px;
+  height: 300px;
+  border: 2px solid black;
+  background-color: #f3f3f3;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.box {
+  background-color: lightseagreen;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.start {
+  align-content: start;    
+  justify-content: start;   
+}
+
+.center {
+  align-content: center;
+  justify-content: center;
+}
+
+.end {
+  align-content: end;
+  justify-content: end;
+}
+
+.between {
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.around {
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+
+/* 6 */
+/* justify-content: start;  მარცხნივ მიაწებებს ყუთებს
+align-content: start;    ზემოთ მიაწებებს ყუთებს */
+
+/* justify-content: end;    მარჯვნივ მიაწებებს */ 
+/* align-content: end;      /* ქვემოთ მიაწებებს */
+
+/* justify-content: center; ჰორიზონტალური ცენტრი */
+/* align-content: center;   ვერტიკალური ცენტრი */
+
+/* justify-content: space-between; შუალედებში სივრცე არის, კიდეებზე — არა */
