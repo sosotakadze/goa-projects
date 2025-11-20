@@ -1,0 +1,143 @@
+/* 1 */
+.btn {
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: red;
+}
+
+
+
+/* 2 */
+.box {
+  width: 120px;
+  height: 120px;
+  background: lightblue;
+  transition: 0.4s;
+}
+
+.box:hover {
+  transform: rotate(10deg) scale(1.2);
+  border-radius: 20px;
+}
+
+
+
+/* 3 */
+.animBox {
+  width: 80px;
+  height: 80px;
+  background: purple;
+  transition: 0.3s;
+}
+
+.animBox:hover {
+  animation: grow 1s forwards;
+}
+
+@keyframes grow {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(2); }
+  100% { transform: scale(3); }
+}
+
+
+
+/* 4 */
+.zoomBtn {
+  padding: 12px 20px;
+  background: green;
+  color: white;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.zoomBtn:hover {
+  transform: scale(2);
+}
+
+.zoomBtn:active {
+  transform: scale(0.7);
+}
+
+
+
+/* 5 */
+.rotateBox {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  transition: 0.2s;
+}
+
+.rotateBox:active {
+  transform: rotate(5deg);
+}
+
+
+
+/* 6 */
+.pressBtn {
+  background: lightblue;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.pressBtn:active {
+  background: #4a7ba7;
+  transform: translateY(2px);
+}
+
+
+
+/* 7 */
+.inp {
+  padding: 8px;
+  transition: 0.3s;
+}
+
+.inp:focus {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px #999;
+}
+
+
+
+/* 8 */
+.txt {
+  padding: 10px;
+  border: 2px solid #aaa;
+  transition: 0.3s;
+}
+
+.txt:focus {
+  background: #f0faff;
+  border-color: #0084ff;
+}
+
+
+
+/* 9 */
+#msg {
+  display: none;
+}
+
+#chk:checked + #msg {
+  display: block;
+}
+
+
+
+/* 10 */
+:is(h1, h2, h3) {
+  color: blue;
+  padding: 10px;
+  border-radius: 8px;
+}

@@ -1,0 +1,178 @@
+/* 1 */
+button {
+  background: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  transition: 0.3s; 
+}
+
+button:hover {
+  background: red;  
+  transform: scale(1,5); 
+  box-shadow: 0 0 10px black; 
+}
+
+
+
+/* 2 */
+button {
+  background: #ff9800; 
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s; 
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffd700; 
+}
+
+
+
+/* 3 */
+.x1 {
+    padding: 12px 20px;
+    background: #4a72ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.15s ease;
+}
+
+
+.x1:active {
+    background-color: red;
+    transform: translateY(3px);
+}
+
+
+
+/* 4 */
+.x2 {
+    padding: 12px 20px;
+    background: #4a72ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.15s ease;
+}
+
+.x2:active {
+    background: #4a72ff;
+    transform: translateY(3px);
+    color: #d9d9d9; 
+}
+
+
+
+/* 5 */
+.x3 {
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    transition: 0.2s ease;
+    outline: none;
+}
+
+.x3:focus {
+    border-color: #6a5aff;    
+    outline: 3px solid #b7afff; 
+}
+
+
+
+/* 6 */
+.box {
+    width: 260px;
+    padding: 12px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition: 0.2s ease;
+    outline: none;
+}
+
+.box:focus {
+    transform: scale(1.03);   
+    border-color: lightblue;      
+}
+
+
+
+/* 7 */
+:is(.error, .warning, .success) {
+  border-radius: 10px;
+}
+
+
+/* 8 */
+.hidden-text {
+  display: none;
+  margin-top: 8px;
+}
+
+.toggle:checked + .hidden-text {
+  display: block;
+}
+
+
+
+/* 9 */
+.email {
+  padding: 10px 14px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.email:focus:valid {
+  border-color: #28a745; 
+}
+
+.email:focus:invalid {
+  border-color: #dc3545;
+}
+
+
+
+/* 10 */
+section {
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+section:target {
+  border-color: #384883;
+  background-color: #ffffff;
+  transform: scale(1.02);
+}
+
+
+/* 11 */
+/* :hover – ელემენტზე მაუსის გადატანისას მოქმედებს.
+
+:active – ელემენტი დაჭერის მომენტში აქტიურდება.
+
+:focus – input/textarea აქტიური ან ფოკუსირებული მდგომარეობაა.
+
+:checked – checkbox ან radio მონიშნულია.
+
+:valid – input-ის მონაცემი სწორ ფორმატშია.
+
+:invalid – input-ის მონაცემი არასწორ ფორმატშია.
+
+:target – ელემენტი იკვეთება URL-ის hash–ის მიხედვით.
+*/
