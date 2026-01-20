@@ -1,0 +1,70 @@
+/* 1) CSS-ში ცვლადები გამოიყენება იმისთვის,
+   რომ ერთ ადგილას შევინახოთ მნიშვნელობები
+   და შემდეგ ბევრგან გამოვიყენოთ. */
+
+/* 2) clip-path გამოიყენება ელემენტების
+   სხვადასხვა ფორმის მისაცემად (მრგვალი, სამკუთხედი და სხვ.) */
+
+/* 3 */
+:root {
+  --main-color: #2c7be5;
+  --secondary-color: #ffffff;
+
+  --btn-bg: #28a745;
+  --btn-hover: #1e7e34;
+
+  --box-color: #ff9800;
+  --box-hover-color: #e91e63;
+}
+
+/* body-ის ფონი */
+body {
+  background-color: var(--main-color);
+  padding: 20px;
+}
+
+/* h1 ტექსტის ფერი */
+h1 {
+  color: var(--secondary-color);
+}
+
+/* 4 */
+.btn {
+  background-color: var(--btn-bg);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ღილაკის hover ეფექტი */
+.btn:hover {
+  background-color: var(--btn-hover);
+}
+
+/* 5 */
+.circle-img {
+  width: 200px;
+  height: 200px;
+  clip-path: circle(50%);
+}
+
+/* 6  */
+.triangle {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+/* 7)  */
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: var(--box-color);
+  transition: 0.3s;
+}
+
+.box:hover {
+  background-color: var(--box-hover-color);
+}

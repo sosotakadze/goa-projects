@@ -213,7 +213,7 @@ switch (weather) {
     break;
   case "cloudy":
     console.log("It's cloudy");
-    break;
+    break;3 
   default:
     console.log("Unknown");
 }
