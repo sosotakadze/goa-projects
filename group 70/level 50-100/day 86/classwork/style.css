@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* 1) Shadow Blocks */
+.shadow {
+    width: 200px;
+    height: 100px;
+    margin: 20px 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-shadow {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.medium-shadow {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.large-shadow {
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* 2) Gradient Card */
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* 3) Rounded Buttons */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    background-color: #4facfe;
+    color: white;
+    cursor: pointer;
+}
+
+.small-round {
+    border-radius: 5px;
+}
+
+.medium-round {
+    border-radius: 15px;
+}
+
+.full-round {
+    border-radius: 50px;
+}
+
+/* 4) Hover Block */
+.hover-box {
+    width: 200px;
+    height: 100px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.hover-box:hover {
+    background-color: #00f2fe;
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* 5) Transition Button */
+
+.transition-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* სხვადასხვა სიჩქარე */
+.slow {
+    transition: 1s;
+}
+
+.medium {
+    transition: 0.5s;
+}
+
+.fast {
+    transition: 0.2s;
+}
+
+.transition-btn:hover {
+    background-color: #e74c3c;
+}
+
+
+
+/* 6) Responsive Layout */
+
+.responsive-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box {
+    background-color: #2ecc71;
+    color: white;
+    padding: 40px;
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+/* დიდ ეკრანზე 3 სვეტი */
+@media (min-width: 768px) {
+    .box {
+        flex: 1 1 30%;
+    }
+}
+
+
+
+/* 7) Grid Layout */
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+}
+
+/* მობილური - 1 სვეტი */
+.grid-container {
+    grid-template-columns: 1fr;
+}
+
+/* ტაბლეტი - 2 სვეტი */
+@media (min-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop - 3 სვეტი */
+@media (min-width: 992px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.grid-item {
+    background-color: #9b59b6;
+    color: white;
+    padding:X 40px;
+    text-align: center;
+}

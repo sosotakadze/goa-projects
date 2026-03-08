@@ -65,18 +65,6 @@ console.log("4)", stats);
 
 // 5
 
-const text = "Hello 123 World!";
-
-const chars = text
-  .toLowerCase()
-  .replace(/[^a-z0-9]/g, "")
-  .split("")
-  .reduce((acc, char) => {
-    acc[char] = (acc[char] || 0) + 1;
-    return acc;
-  }, {});
-
-console.log("5)", chars);
 
 
 // 6
